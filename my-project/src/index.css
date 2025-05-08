@@ -1,68 +1,178 @@
 @import "tailwindcss";
-#a1{
-     margin-right: 40px;
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+     height: 100px;
+     width: 100px;
+     padding: 0;
+     margin: 0;
      
+    
 }
-#a6{
-     top: 600px;
-     right: 400px;
+#cart{
+    display: inline;
 }
-#a2{
-     margin-left: 70px;
+.cart-div{
+    display: flex;
+    justify-content: left;
+    align-items: left;
 }
 
-#a4{
-     background-color: red;
-     padding: 10px;
-     border-radius: 15px;
-     box-shadow: 0px 10px 14px -7px black;
-     cursor: pointer;
-}
-
-.a0{
-     cursor: pointer;
-}
-/* #a8{
-     background-image: url(assets/images/bg.webp);
-     background-size: cover;
-   
-} */
- #a6{
-     right: 1100px;
-     top: 500px;
- }
- #a7{
-     height: 200px;
-     width: 200px;
-     right: 300px;
-     top: 1000px;
- }
- .s56{
-     background-color: bisque;
- }
- #a99{
-     
-     margin-left: 50px;
- }
- #a555{
-     position: relative;
-     padding-right: 30px;
- }
- #a98{
-     height: 400px;
-     width: 400px;
- }
- #root{
-     height: 100vh;
+  .cart {
+     height: 30ox;
+     width: 30px;
+  }
+  #but{
+    border-radius: 30px;
+  }
+  .ol{
+     width: 100%;
+  }
+  #con{
      width: 100wh;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: rgb(235, 235, 217);
+  }
+  ul{
+     color: black;
+     font-weight: bold;
+  }
+  #main{
+     background-color: lightyellow;
+     font-weight:900;
+     padding: 60px;
+  }
+  #para{
+     margin: 30px;
+  }
+  h1{
+    font-weight: 900;  }
+#yummy{
+  background: url(assets/images/pizza.avif)   -20px -20px no-repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  display:block;
+  font-size: 150px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: -20px;
+  font-weight: bold;
+  letter-spacing: -25px;
+  background-size: cover;
+  text-decoration: wavy underline rgb(214, 204, 156);
+}
+.leaf{
+   height: 40px;
+   width: 40px;
+}
+.line{
+   background-color: lightyellow;
+}
+.spoon{
+   height: 150px;
+   width: 150px;
+   position:absolute;
+   right: 400px;
+   transition: all;
+   rotate: 60deg;
+   bottom: 350px;
+}
+.banana{
+   height: 200px;
+   width: 400px;
+   transition: all;
+   position:absolute;
+   top: -550px;
+   right: 100px;
+   rotate: 220deg;
+}
+.backg{
+    background-color: rgb(231, 224, 182);
+    height: 2500px;
+    width: 100wh;
+}
+.button{
+   height: 100px;
+   width: 150px;
+   background-image: url(assets/images/button.png);
+   background-size: cover;
+   border-radius: 20%;
+}
+#bg {
+   overflow:scroll;
+}
+
+
+  .navbar{
+   background-color: rgb(241, 241, 195) ;
+  }
+#a1 {
+   width: 100px;
+   height: 100px;
+   background-image: url(assets/images/pizza2.jpg);
+   background-size: cover;
+   transition-property: all ; 
+  animation-name: rolls;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+@keyframes rolls {
+   from {transform: rotate(360deg);}
+   to {transform: rotate(0deg);} 
+}
+.the-pic{
+      height: 300px;
+      width: 300px;
+}
+#a4{
+   height: 300px;
+   font-weight: 300px;
+}
+#yummy1{
+   background: url(assets/images/cuss.png)   -20px -20px no-repeat;
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+   display:block;
+   font-size: 100px;
+   font-family: arial;
+   text-align: center;
+   margin-top: -20px;
+   font-weight: bold;
+   letter-spacing: -25px;
+   background-size: cover;
+   text-decoration:  underline lightyellow;
  }
- #a100{
-     height: 300px;
-     width: 300px;
+ #a5{
+    height: 300px;
+    width: 300px;
+    display:flex;
+    position:absolute;
+    top: 260px;
+    right: 10px;
  }
- .a999{
-    margin-left: 80px;
+
+ .last{
+    height: 200px;
+    width: 200px;
  }
- #a6777{
-    padding-left: 150px;
+ a:hover {
+   text-decoration: none;
  }
+  #buut{
+   color: aliceblue;
+   border: none;
+   position: relative;
+   cursor: pointer;
+  }
+  #a44{
+   background-color: red;
+   padding: 10px;
+   border-radius: 15px;
+   box-shadow: 0px 10px 14px -7px black;
+   cursor: pointer;
+}
